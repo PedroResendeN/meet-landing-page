@@ -78,6 +78,7 @@ button {
   font-weight: 900;
   line-height: 150%;
   cursor: pointer;
+  transition: .3s;
 }
 
 button span {
@@ -315,6 +316,10 @@ footer .number {
 }
 
 @media (min-width: 1440px) {
+  header {
+    padding: 80px 80px 0;
+  }
+
   main {
     grid-template-columns: 1440px;
   }
@@ -402,5 +407,13 @@ footer .number {
   .footer-text button {
     align-self: flex-start;
     margin-left: auto;
+  }
+
+  .main-download:hover {
+    background-color: #8FE3F9;
+  }
+
+  .button-info:hover, footer button:hover {
+    background-color: #D9B8FF;
   }
 }
